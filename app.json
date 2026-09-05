@@ -1,10 +1,34 @@
 {
   "expo": {
-    "name":"Vastu Disha","slug":"vastu-disha","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"light","assetBundlePatterns":["**/*"],
-    "ios":{"supportsTablet":true,"bundleIdentifier":"com.vastudisha.app","infoPlist":{"NSCameraUsageDescription":"Vastu Disha uses the camera to show live Vastu direction guidance.","NSLocationWhenInUseUsageDescription":"Vastu Disha uses your compass heading to determine directions."}},
-    "android":{"package":"com.vastudisha.app","versionCode":1,"permissions":["CAMERA","ACCESS_COARSE_LOCATION","ACCESS_FINE_LOCATION"]},
-    "scheme":"vastudisha",
-    "plugins":[["expo-camera",{"cameraPermission":"Vastu Disha uses the camera for Live Vastu Scan.","microphonePermission":false,"recordAudioAndroid":false}],["expo-location",{"locationWhenInUsePermission":"Vastu Disha uses your location only to improve compass direction accuracy."}]],
-    "extra":{"eas":{"projectId":"REPLACE_WITH_EAS_PROJECT_ID"}}
+    "name": "Vastu Disha",
+    "slug": "vastu-disha",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vastudisha.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Vastu Disha uses the camera to show live Vastu direction guidance.",
+        "NSLocationWhenInUseUsageDescription": "Vastu Disha uses your compass heading to determine directions."
+      }
+    },
+    "android": {
+      "package": "com.vastudisha.app",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "scheme": "vastudisha",
+    "plugins": [
+      ["expo-camera", {
+        "cameraPermission": "Vastu Disha uses the camera for Live Vastu Scan.",
+        "microphonePermission": false,
+        "recordAudioAndroid": false
+      }],
+      ["expo-location", {
+        "locationWhenInUsePermission": "Vastu Disha uses your location only to improve compass direction accuracy."
+      }]
+    ]
   }
 }
